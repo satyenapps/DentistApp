@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  App name -->
+    <string name="app_name">Dentist App</string>
+
+    <string name="project_number">101164988133</string>
+    <string name="server_api_key">AIzaSyCfgy0nIYg62b81F5NYgUkhVq8pwMsEl-I</string>
+
+    <!-- Prefs Dash-->
+    <string name="pref_config">Color Picker</string>
+    <string name="title_activity_settings">Setting</string>
+
+    <!-- Menu -->
+    <string name="colorpicker_menu_about">About</string>
+
+    <!-- Menu MainActivity -->
+    <string name="ns_menu_main_header_dash">Dashclock</string>
+    <string name="ns_menu_main_row_dash_original">Original ColorPreference</string>
+    <string name="ns_menu_main_row_dash_dialog">Custom ColorPickerDialog</string>
+    <string name="ns_menu_main_header_calendar">Stock Calendar</string>
+    <string name="ns_menu_main_row_calendar_original">Original ColorPicker</string>
+    <string name="ns_menu_main_row_calendar_preference">Custom ColorPreference</string>
+
+    <!-- About -->
+    <string name="title_about">About</string>
+    <string name="about_ok">OK</string>
+    <string name="about_body"><![CDATA[
+        <b>Colorpickercollection Library & Demo</b><br>
+        Version %s<br><br>
+        <a href="https://github.com/gabrielemariotti/colorpickercollection">Source</a><br><br>
+        <a href="https://plus.google.com/114432517923423045208">By Gabriele Mariotti</a><br><br>
+
+    ]]></string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tagline">your dentist</string>
+
+    <string name="title_activity_about">AboutActivity</string>
+
+    <string name="point1">Are you scared to visit a dentist ?</string>
+    <string name="point2">You don’t have time to visit a dentist ?</string>
+    <string name="point3">You brush your teeth regularly ?</string>
+    <string name="point4">You have a camera-phone ?</string>
+    <string name="point5">If answer to any of the above is YES, you have made the right <![CDATA[<b>APP</b>]]>-roach towards dental health!</string>
+    <string name="point6">Toothpic is the ultimate, easy, simple, free, personalized, professional dental maintenance service!</string>
+
+    <!-- Instuctions-->
+    <string name="instruction1">With Toothpic in your hand, you can get a preliminary dental health checkup from our team of dentists by simply sending across photos of your teeth !</string>
+    <string name="instruction2">Please take upto 4 close-up photos of upper, lower and front teeth as shown</string>
+    <string name="instruction3">Toothpic will respond to you in 24 hours</string>
+    <string name="sample">Sample Photos</string>
+    <string name="front">Front</string>
+    <string name="lower">Lower</string>
+    <string name="upper">Upper</string>
+
+    <!-- Main App Screens -->
+    <string name="takephoto1">Ask your friends/family to click for you - keep the selfies for your display pic!</string>
+    <string name="takephoto2">Try clicking clear, focused photos with flash &amp; preferably after brushing</string>
+    <string name="takephoto3">Press 1,2,3,4 to take photo</string>
+
+    <!-- Terms & Conditions-->
+    <string name="title_activity_terms_conditions">TermsConditionsActivity</string>
+    <string name="i_agree">I Agree</string>
+    <string name="tc">Terms &amp; Conditions</string>
+
+    <!-- Thank You Screen -->
+    <string name="dent">While Toothpic prepares your report,\n please help it\nmake a dent in the universe!</string>
+    <string name="thanku">Thank You\nfor being toothpic-ed!</string>
+    <string name="getback">We will get back to you at the earliest!\n\nMeanwhile, please recommend us if you want us to make a \'dent\' in the universe!</string>
+    <string name="loveto">Toothpic would love to connect with you</string>
+    <!--
+     \n&#8226; Whatsapp: +91-98338 76067
+                          \n&#8226; Email:
+                          \n&#8226; Website: \n  www.tooth-pic.com/www.toothpic.net-->
+
+    <string name="title_activity_main_app">MainAppActivity</string>
+    <string name="details">Details of Services offered</string>
+    <string name="instructions">Instructions</string>
+    <string name="tkphoto">Take Photo</string>
+    <string name="chgallery">Choose from Gallery</string>
+    <string name="title_activity_send_data_actvity">SendDataActvity</string>
+    <string name="title_activity_final">FinalActivity</string>
+    <string name="review">Review / Rating</string>
+    <string name="feedback">Feedback</string>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Gender</item>
+    </string-array>
+
+    <string-array name="location_array">
+        <item>Ahmedabad</item>
+        <item>Baroda</item>
+        <item>Rajkot</item>
+        <item>Surat</item>
+        <item>City</item>
+    </string-array>
+    <string name="title_activity_thankyou">ThankyouActivity</string>
+    <string name="title_activity_drag_and_drop">DragAndDropActivity</string>
+
+</resources>

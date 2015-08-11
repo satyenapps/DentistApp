@@ -1,0 +1,29 @@
+// DB Details
+DB name :
+U  name : learning_dentist
+Psrd    : learning@dentist1
+
+//Google Samples
+http://developer.android.com/samples/ui.html
+
+//To upload image
+http://stackoverflow.com/questions/27149315/cant-upload-image-to-server-using-asynchttpclient-in-android
+
+// Getting image path from uri
+http://hmkcode.com/android-display-selected-image-and-its-real-path/
+
+// Drawing Code
+http://stackoverflow.com/questions/15704205/how-to-draw-line-on-imageview-along-with-finger-in-android
+
+// Drawing App
+http://code.tutsplus.com/tutorials/android-sdk-create-a-drawing-app-interface-creation--mobile-19021
+http://stackoverflow.com/questions/25094845/implementing-an-eraser-in-an-android-drawing-app-black-trail-and-then-transpar
+
+// View to Bitmap
+FrameLayout view = (FrameLayout)findViewById(R.id.framelayout);
+
+view.setDrawingCacheEnabled(true);
+
+view.buildDrawingCache();
+
+Bitmap bm = view.getDrawingCache(); 

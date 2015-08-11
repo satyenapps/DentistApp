@@ -1,0 +1,9 @@
+ffeeb6 light
+a98a0e  dark yellow
+
+cbf3f9 light
+
+1d7a88 dark blue
+
+c7d761 light
+697822 dark green

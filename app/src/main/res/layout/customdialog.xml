@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        android:src="@drawable/sample_f"
+        android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="@color/btncolor"
+        android:layout_height="0dp"
+        android:text=" Back "
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white" />
+
+</LinearLayout>

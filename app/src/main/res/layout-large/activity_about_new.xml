@@ -1,0 +1,224 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.appslight.dentistapp.activities.AboutActivity">
+
+    <include
+        android:id="@+id/titleBar"
+        layout="@layout/layout_titlebar" />
+
+
+    <RelativeLayout
+        android:layout_below="@id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/boxcolor"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtFirst"
+                android:text="@string/point1"
+                android:layout_width="match_parent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/btncolor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll1"
+            android:layout_marginTop="12dp"
+            android:background="@color/boxcolor"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtSecond"
+                android:text="@string/point2"
+                android:maxLines="3"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/btncolor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/boxcolor"
+            android:layout_below="@id/ll2"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtThree"
+                android:text="@string/point3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/btncolor" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_below="@id/ll3"
+            android:background="@color/boxcolor"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtFourth"
+                android:layout_marginTop="0dp"
+                android:text="@string/point4"
+                android:maxLines="3"
+                android:gravity="center"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/btncolor" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll4"
+            android:background="@color/boxcolor"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtFive"
+                android:layout_marginTop="0dp"
+                android:text="@string/point5"
+                android:maxLines="3"
+                android:gravity="center"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/btncolor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_below="@id/ll5"
+            android:background="@color/boxcolor"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtSix"
+                android:layout_marginTop="0dp"
+                android:text="@string/point6"
+                android:maxLines="3"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/btncolor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/imgNext"
+                android:text="Agree"
+                android:background="@color/btncolor"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_above="@id/linearNext"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/btncolor"
+                android:text="*I agree with the "
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtTC"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@id/txt"
+                android:textSize="18sp"
+                android:textColor="@color/btncolor"
+                android:text="Terms and Conditions"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

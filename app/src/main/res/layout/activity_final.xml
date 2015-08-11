@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.appslight.dentistapp.activities.FinalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:background="@color/boxcolor"
+        android:layout_weight="30">
+
+        <TextView
+            android:text="Thankyou"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textColor="@color/quecolor"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="We will get back...."
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textColor="@color/quecolor"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="70">
+
+        <ImageView
+            android:id="@+id/point1"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/txtFirst"
+            android:text="@string/review"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/point1"
+            android:textSize="24sp"
+            android:textColor="@color/quecolor" />
+
+        <include
+            android:id="@+id/lineView"
+            layout="@layout/layout_lineview"
+            android:layout_below="@id/txtFirst"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="2dp" />
+
+        <ImageView
+            android:id="@+id/point2"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/lineView"
+            android:layout_marginTop="12dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/txtThree"
+            android:text="@string/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/point2"
+            android:layout_below="@+id/lineView"
+            android:textSize="24sp"
+            android:textColor="@color/quecolor" />
+
+        <TextView
+            android:id="@+id/txtFourth"
+            android:layout_below="@id/txtThree"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="60dp"
+            android:layout_alignLeft="@+id/txtFirst"
+            android:text="- WhatsApp \n-Email \n-FB \n-Twitter"
+            android:maxLines="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/quecolor" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

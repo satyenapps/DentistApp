@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <color name="quecolor">#FECC00</color>
+    <color name="linecolor">#B0CB1F</color>
+    <color name="tranparent">@android:color/transparent</color>
+    <color name="background">#57A7B3</color>
+
+    2
+    <color name="quecolor">#a98a0e</color>
+    <color name="linecolor">#B0CB1F</color>
+    <color name="tranparent">@android:color/transparent</color>
+    <color name="background">#ffeeb6</color>
+
+    3
+    <color name="quecolor">#1d7a88</color>
+    <color name="linecolor">#1d7a88</color>
+    <color name="tranparent">@android:color/transparent</color>
+    <color name="background">#cbf3f9</color>
+    dull blue : #2E5B60
+    shine blue : #1F497D
+    -->
+
+    <color name="white">#ffffff</color>
+    <color name="quecolor">#2E5B60</color>
+    <color name="boxcolor">#D8E58D</color>
+    <color name="linecolor">#697822</color>
+    <color name="tranparent">@android:color/transparent</color>
+    <color name="background">#C8D762</color>
+    <color name="btncolor">#1F497D</color>
+    <color name="hintcolor">#9BA54C</color>
+
+</resources>

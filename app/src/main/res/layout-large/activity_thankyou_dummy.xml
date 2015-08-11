@@ -1,0 +1,286 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:weightSum="100"
+    android:orientation="vertical"
+    tools:context="com.appslight.dentistapp.activities.MainAppActivity">
+
+    <include
+        android:id="@+id/titleBar"
+        layout="@layout/layout_titlebar" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:orientation="vertical"
+        android:weightSum="100"
+        tools:context="com.appslight.dentistapp.activities.ThankyouActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/boxcolor"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtFive"
+                android:layout_marginTop="0dp"
+                android:text="@string/dent"
+                android:maxLines="3"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/quecolor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical"
+            android:weightSum="100"
+            android:layout_weight="30">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_weight="50">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/transbox"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/btnShare"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Share"
+                        android:textSize="18sp"
+                        android:background="@color/btncolor"
+                        android:textColor="@color/white"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/transbox"
+                    android:layout_marginLeft="6dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/btnRate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Rate App"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:background="@color/btncolor"
+                        android:textColor="@color/white"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="100"
+                android:paddingTop="2dp"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:layout_weight="50">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/transbox"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/btnFB"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Like us on\n Facebook"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:background="@color/btncolor"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/transbox">
+
+                    <TextView
+                        android:id="@+id/btnTweet"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Follow us on\n Twitter"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:background="@color/btncolor" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="30"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="@string/thanku"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textColor="@color/quecolor"
+                android:textSize="32sp"
+                android:id="@+id/tvThanks" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="40"
+            android:weightSum="101"
+            android:background="@color/boxcolor"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="26">
+
+                <TextView
+                    android:id="@+id/tvLoveTo"
+                    android:text="@string/loveto"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/quecolor"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/line"
+                android:layout_weight="1"></LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_weight="25">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/whatsapp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:text="+91-98338 76067"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/quecolor"
+                    android:textSize="20sp" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/line"
+                android:layout_weight="1"></LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_weight="25">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/email"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:text="smile@tooth-pic.com"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/quecolor"
+                    android:textSize="20sp" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/line"
+                android:layout_weight="1"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_weight="25">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_marginLeft="22dp"
+                    android:background="@drawable/web"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:text="www.tooth-pic.com / www.toothpic.net"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/quecolor"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

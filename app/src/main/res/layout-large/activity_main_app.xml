@@ -1,0 +1,452 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:weightSum="100"
+    android:orientation="vertical"
+    android:isScrollContainer="false"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.appslight.dentistapp.activities.MainAppActivity">
+
+    <include layout="@layout/layout_titlebar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:weightSum="100"
+        android:orientation="vertical"
+        tools:context="com.appslight.dentistapp.activities.MainAppActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="35">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/ll1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/boxcolor"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/takephoto1"
+                            android:text="@string/takephoto1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/btncolor" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll1"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/boxcolor"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/takephoto2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/btncolor"
+                            android:text="@string/takephoto2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_below="@+id/ll2"
+                        android:background="@color/boxcolor"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/takephoto3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/btncolor"
+                            android:text="@string/takephoto3" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/boxcolor"
+            android:layout_marginTop="6dp"
+            android:layout_weight="15"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="25"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.1"
+                    android:padding="12dp"
+                    android:src="@drawable/snap_new" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="1"
+                    android:textColor="@color/btncolor"
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="match_parent" />
+
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/line_ninty"
+                android:layout_weight="1"></ImageView>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="25"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="12dp"
+                    android:alpha="0.1"
+                    android:src="@drawable/snap_new" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="2"
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/btncolor"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="match_parent" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/line_ninty"
+                android:layout_weight="1"></LinearLayout>
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="25"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="12dp"
+                    android:alpha="0.1"
+                    android:src="@drawable/snap_new" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="3"
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/btncolor"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="match_parent" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/line_ninty"
+                android:layout_weight="1"></LinearLayout>
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="25"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="12dp"
+                    android:alpha="0.1"
+                    android:src="@drawable/snap_new" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="4"
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/btncolor"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="match_parent" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="40"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="100"
+                    android:background="@color/boxcolor"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="30"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:textColor="@color/btncolor"
+                        android:layout_height="match_parent"
+                        android:text="Name" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/edtName"
+                        android:layout_width="0dp"
+                        android:layout_weight="70"
+                        android:hint="Name"
+                        android:textColorHint="@color/btncolor"
+                        android:textSize="14sp"
+                        android:textColor="@color/btncolor"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:layout_marginTop="4dp"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="100"
+                    android:background="@color/boxcolor"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="30"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:textColor="@color/btncolor"
+                        android:layout_height="match_parent"
+                        android:text="Email" />
+
+                    <EditText
+                        android:id="@+id/edtEmail"
+                        android:layout_width="0dp"
+                        android:layout_weight="70"
+                        android:textColor="@color/btncolor"
+                        android:textSize="14sp"
+                        android:textColorHint="@color/btncolor"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Email" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:layout_marginTop="4dp"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="100"
+                    android:background="@color/boxcolor"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="30"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:textColor="@color/btncolor"
+                        android:layout_height="match_parent"
+                        android:text="DOB" />
+
+                    <EditText
+                        android:id="@+id/edtDOB"
+                        android:layout_width="0dp"
+                        android:textColor="@color/btncolor"
+                        android:layout_weight="70"
+                        android:textSize="14sp"
+                        android:layout_height="wrap_content"
+                        android:text="dd-mm-yyyy" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:layout_marginTop="4dp"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="100"
+                    android:background="@color/boxcolor"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="30"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:textColor="@color/btncolor"
+                        android:layout_height="match_parent"
+                        android:text="Gender" />
+
+                    <Spinner
+                        android:id="@+id/spinGen"
+                        android:layout_width="0dp"
+                        android:layout_weight="70"
+                        android:popupBackground="@color/background"
+                        android:textSize="14sp"
+                        android:layout_height="match_parent"
+                        android:text="Select Gender" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="20"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="100"
+                    android:background="@color/boxcolor"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="30"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:textColor="@color/btncolor"
+                        android:layout_height="match_parent"
+                        android:text="Location" />
+
+                    <Spinner
+                        android:id="@+id/spinLoc"
+                        android:layout_width="0dp"
+                        android:layout_weight="70"
+                        android:textColor="@color/btncolor"
+                        android:popupBackground="@color/background"
+                        android:layout_height="match_parent"
+                        android:text="Select Location" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearNext"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="10"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Send"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:background="@color/btncolor"></Button>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
